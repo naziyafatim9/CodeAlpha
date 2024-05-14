@@ -1,6 +1,6 @@
 # CodeAlpha
 Task1:FIBONACCI SERIES
-//Program
+# Program
 def fibonacci(n):
     fib_series = [0, 1]
     for i in range(2, n):
@@ -8,7 +8,7 @@ def fibonacci(n):
         fib_series.append(next_fib)
     return fib_series[:n]
 
-# Example usage
+// Example usage
 n = 10
 fib_series = fibonacci(n)
 print(fib_series)
