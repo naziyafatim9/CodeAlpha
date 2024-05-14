@@ -1,17 +1,6 @@
 # CodeAlpha
 Task1:FIBONACCI SERIES
-# Program
-def fibonacci(n):
-    fib_series = [0, 1]
-    for i in range(2, n):
-        next_fib = fib_series[-1] + fib_series[-2]
-        fib_series.append(next_fib)
-    return fib_series[:n]
 
-// Example usage
-n = 10
-fib_series = fibonacci(n)
-print(fib_series)
 This Python code defines a function fibonacci(n) to generate the Fibonacci series up to the nth term using iteration. Here's an explanation of the code:
 
 Function Definition: The fibonacci(n) function takes an integer n as input, representing the number of terms in the Fibonacci series to generate.
